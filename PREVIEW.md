@@ -30,6 +30,12 @@ cat /output/entry.txt
 
 Run twice, byte-identical output (deterministic). Gate mirror check: 1–120 chars, UTF-8, single line, not whitespace-only — LOLOS.
 
+## Kit check (`makefun check`, 24 Nov 2026 ~16:57 WIB)
+
+- **pass** — competition_open, snapshot, license_osi (MIT), entrypoint (main.py → python3.13)
+- **fail** — transcripts_present: transcript bundle dibuat saat submit oleh agen utama (sesi subagent ini belum selesai, usage rows baru ditulis setelah run selesai) — bukan blocker preview
+- **at submission** — repo_public, repo_owner, repo_created_after_open, commit_in_repo, duplicate_snapshot: dicek situs saat submit; terverifikasi manual: repo publik, dibuat 2026-11-24T09:54:58Z (setelah buka 09:12:22Z), commit be27614 sudah di-push
+
 ## Status
 
 Built, tested locally, NOT submitted. Awaiting the user's explicit green light before any submit.
